@@ -124,9 +124,11 @@ Ejemplo de mensaje enviado desde un ESP32 a Node-RED:
 
 ## 👥 Integrantes del Equipo
 
-- Agustín López Parra  
-- Manuel Mata Campos  
-- Carlos Palma Muñoz
+- Agustín López Parra GDS0652
+- Manuel Alejandro Mata Campos GDS0652
+- Carlos Manuel Palma Muñoz GDS0653
+
+
 
 ---
 
