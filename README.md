@@ -5,7 +5,7 @@ Este proyecto consiste en una maqueta de una casa inteligente que utiliza sensor
 ---
 
 ## 🎥 Videos del Proyecto
-https://github.com/agustn134/iot-maqueta-casa-inteligente/blob/main/README.md
+
 - ✅ [Prueba de Funcionamiento del Proyecto](https://youtu.be/kPyg2eJ0VYg?si=wpGCY4Vnu6hMVZsQ)
 - 🧑‍🏫 [Persona Externa que Aprueba el Proyecto](https://youtu.be/j4nz-pYEb0M?si=YJegoRfjVuyzQKbG)
 
@@ -78,7 +78,30 @@ https://github.com/agustn134/iot-maqueta-casa-inteligente/blob/main/README.md
 
 ## 📂 Estructura del Repositorio
 
-iot-maqueta-casa-inteligente/ │ ├── README.md ├── LICENSE ├── .gitignore │ ├── docs/ │ ├── diagrama_general.png │ ├── flujo_node_red.png │ └── fotos_maqueta/ │ ├── maqueta_fisica.jpg │ └── sensores_conectados.jpg │ ├── scripts/ │ ├── sala.py # MQ2 y táctil │ ├── cocina.py # Temp/Hum, flama, buzzer │ ├── alumbrado_pir.py # PIR con LEDs │ └── alumbrado_control.py # LEDs por botón o lógica │ ├── sql/ │ └── iot_maqueta.sql │ ├── node-red/ │ └── flujo-sensores.json │ └── datos/ └── mensajes_mqtt_ejemplo.json
+```
+iot-maqueta-casa-inteligente/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── diagrama_general.png
+│   ├── flujo_node_red.png
+│   └── fotos_maqueta/
+│       ├── maqueta_fisica.jpg
+│       └── sensores_conectados.jpg
+├── scripts/
+│   ├── sala.py                  # MQ2 y táctil
+│   ├── cocina.py                # Temp/Hum, flama, buzzer
+│   ├── alumbrado_pir.py         # PIR con LEDs
+│   └── alumbrado_control.py     # LEDs por botón o lógica
+├── sql/
+│   └── iot_maqueta.sql
+├── node-red/
+│   └── flujo-sensores.json
+└── datos/
+    └── mensajes_mqtt_ejemplo.json
+```
+
 ---
 
 ## 💬 Formato de mensajes MQTT
@@ -90,18 +113,27 @@ Ejemplo de mensaje enviado desde un ESP32 a Node-RED:
   "sensor_id": 4,
   "valor": "FUEGO DETECTADO"
 }
+```
+
+---
 
 ## 👥 Integrantes del Equipo
-Mane
 
-Agustin
+- Agustín López Parra  
+- Manuel Mata Campos  
+- Carlos Palma Muñoz
 
-Meño
+---
 
+## 🖼️ Fotos del Dashboard de Node-RED
 
-Fotos del Dashboard de Node-Red
-[url=https://postimg.cc/0rkz7Pdx][img]https://i.postimg.cc/0rkz7Pdx/Dashboard-IMG-1.jpg[/img][/url]
-[url=https://postimg.cc/7bKfVdmz][img]https://i.postimg.cc/7bKfVdmz/Dashboard-IMG-2.jpg[/img][/url]
+[![Dashboard-IMG-1.jpg](https://i.postimg.cc/Wpr0L4dD/Dashboard-IMG-1.jpg)](https://postimg.cc/0rkz7Pdx)  
+[![Dashboard-IMG-2.jpg](https://i.postimg.cc/gkW8YPhg/Dashboard-IMG-2.jpg)](https://postimg.cc/7bKfVdmz)
 
-Flujo de node red
-[url=https://postimg.cc/3dWWb1cc][img]https://i.postimg.cc/3dWWb1cc/diagrama-general.jpg[/img][/url]
+---
+
+## 🏗️ Maqueta Física
+
+[![Foto-Maqueta1.jpg](https://i.postimg.cc/hPD8LBGf/Foto-Maqueta1.jpg)](https://postimg.cc/kDHtCLKm)  
+[![Foto10.jpg](https://i.postimg.cc/TPgW87Pz/Foto10.jpg)](https://postimg.cc/XZNvdgdL)  
+[![Foto9.jpg](https://i.postimg.cc/63K4Br2y/Foto9.jpg)](https://postimg.cc/7CBZVTNk)
