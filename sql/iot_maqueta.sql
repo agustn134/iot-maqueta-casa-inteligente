@@ -1,0 +1,1 @@
+-- Script SQL para crear base de datos
