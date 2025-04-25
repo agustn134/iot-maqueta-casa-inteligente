@@ -9,6 +9,11 @@ Este proyecto consiste en una maqueta de una casa inteligente que utiliza sensor
 - ✅ [Prueba de Funcionamiento del Proyecto](https://youtu.be/kPyg2eJ0VYg?si=wpGCY4Vnu6hMVZsQ)
 - 🧑‍🏫 [Persona Externa que Aprueba el Proyecto](https://youtu.be/j4nz-pYEb0M?si=YJegoRfjVuyzQKbG)
 
+## 🎥 Videos del Proyecto
+
+- ✅ Hoja de validadción de proyecto del Sistema de Alumbrado
+[![Hojadevalidacion.jpg](https://i.postimg.cc/h4TQ3Pj2/Hojadevalidacion.jpg)](https://postimg.cc/QVNMFDc7)
+
 ---
 
 ## 🧠 Arquitectura del Proyecto
